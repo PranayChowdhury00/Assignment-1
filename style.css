@@ -511,3 +511,23 @@ margin-top: 10x;
     color: rgb(18, 18, 18);
     font-weight: 600;
 }
+/* footer */
+
+footer .main-text-footer{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(155, 154, 154);
+    align-items: center;
+}
+
+.main-text-footer h1{
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+}
+.main-text-footer .icons{
+    display: flex;
+}
+.main-text-footer .icons img{
+  padding: 15px 10px;
+}
