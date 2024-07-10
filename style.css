@@ -25,7 +25,7 @@ font-size: 17px;
 
 /* hero section */
 .hero {
-     margin-top: 100px;
+     margin-top: 60px;
     margin-bottom: 100px;
     background-image: url(assets/Hero-bg.png);
     width: 100%;
@@ -514,7 +514,7 @@ margin-top: 10x;
 /* footer */
 
 footer .main-text-footer{
-    padding: 0 20px;
+   
     display: flex;
     justify-content: space-between;
     background-color: rgb(155, 154, 154);
@@ -524,9 +524,11 @@ footer .main-text-footer{
 .main-text-footer h1{
     color: rgb(13, 19, 33);
     font-weight: 600;
+    margin-left: 80px;
 }
 .main-text-footer .icons{
     display: flex;
+    margin-right: 80px;
 }
 .main-text-footer .icons img{
   padding: 15px 10px;
