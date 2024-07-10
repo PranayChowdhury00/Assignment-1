@@ -1,0 +1,513 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+/* header */
+.main-part-head .text-section{
+display: flex;
+justify-content: space-between;
+padding: 20px 100px;
+}
+
+.main-part-head .text-section h2{
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    font-size: 30px;
+}
+.main-part-head .text-section button{
+background:#fff;
+color: rgb(13, 19, 33);
+padding: 5px 20px;
+border-radius: 10px;
+font-size: 17px;
+}
+
+/* hero section */
+.hero {
+     margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(assets/Hero-bg.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center; 
+}
+.main-hero-part{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.main-hero-part .img{
+    margin-top: 70px;
+    width: 200px;
+}
+.main-hero-part .img img{
+    width:100% ;
+}
+.main-hero-part .text{
+    text-align: center;
+}
+.main-hero-part .text h1{
+    color: rgb(13, 19, 33);
+    margin-top: 15px;
+}
+.main-hero-part .text p{
+    color: rgb(13, 19, 33);
+    margin-top: 15px;
+    font-size: 18px;
+}
+.main-hero-part .text button{
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: rgb(13, 19, 33);
+    color: #fff;
+    font-size: 18px;
+}
+/*  */
+.whayweb .main-part-web{
+background: rgba(13, 19, 33, 0.02);
+height: 1700px;
+margin-left:100px ;
+margin-right:100px ;
+margin-bottom: 100px;
+}
+.main-part-web .head-text {
+text-align: center;
+padding: 20px 0;
+}
+.main-part-web .head-text h1 {
+
+margin-bottom: 10px;
+font-weight: 600;
+font-size: 40px;
+}
+.main-part-web .head-text p {
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+}
+.three-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three-card .card-1{
+border-radius: 16px;
+background: #fff;
+width: 900px;
+height: 400px;
+display: flex;
+justify-content: space-between;
+}
+.card-1 .left-text{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.card-1 .left-text h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 600;
+    margin-bottom: 25px;
+   
+}
+.card-1 .left-text p{
+font-size: 18px;
+color: rgb(13, 19, 33);
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.card-1 .left-text button{
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background:#fff;
+    color:  rgb(13, 19, 33);
+    font-size: 18px;
+}
+.card-1 .right-img{
+    width: 400px;
+}
+.card-1 .right-img img{
+width: 100%;
+}
+
+.card-2{
+    margin-top: 100px;
+    border-radius: 16px;
+    background: #fff;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 100px;
+}
+.card-2 .left-img{
+    width: 400px;
+}
+.card-2 .left-img img{
+width: 100%;
+}
+.card-2 .right-text{
+margin-left: 30px;
+}
+.card-2 .right-text h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.card-2 .right-text p{
+    font-size: 18px;
+    color: rgb(13, 19, 33);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card-2 .right-text button{
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background:#fff;
+    color:  rgb(13, 19, 33);
+    font-size: 18px;
+}
+
+.card-3{
+    border-radius: 16px;
+background: #fff;
+width: 900px;
+height: 400px;
+display: flex;
+justify-content: space-between; 
+}
+.card-3 .left-text{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.card-3 .left-text h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 600;
+    margin-bottom: 25px;
+   
+}
+.card-3 .left-text p{
+font-size: 18px;
+color: rgb(13, 19, 33);
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.card-3 .left-text button{
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background:#fff;
+    color:  rgb(13, 19, 33);
+    font-size: 18px;
+}
+.card-3 .right-img{
+    width: 400px;
+}
+.card-3 .right-img img{
+width: 100%;
+}
+/* Inspiration */
+.text-sec{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.text-sec h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.text-sec p{
+font-size: 18px;
+}
+.video{
+    text-align: center;
+}
+/* CurrentTarget */
+.main-CurrentTarget{
+margin-bottom: 100px;
+}
+.main-CurrentTarget .text {
+text-align: center;
+margin-top: 60px;
+}
+.main-CurrentTarget h1{
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.main-CurrentTarget p{
+color: rgb(13, 19, 33);
+font-size: 18px;
+}
+/* three-new-card */
+.three-new-card{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    margin-top: 70px;
+}
+.html-card{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 250px;
+    padding: 20px 10px;
+}
+
+.html-card img{
+    width: 100px;
+margin-bottom: 15px;
+}
+.html-card h2{
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.html-card p{
+color: rgb(36, 34, 34);
+font-size: 18px;
+margin-bottom: 14px;
+}
+
+.html-card a{
+    margin-top: 20px;
+color: black;
+font-weight: 600;
+font-size: 18px;
+}
+/*  */
+.css-card{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 250px;
+    padding: 20px 10px;
+}
+.css-card img{
+    width: 100px;
+margin-bottom: 15px;
+}
+.css-card h2{
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.css-card p{
+color: rgb(36, 34, 34);
+font-size: 18px;
+margin-bottom: 14px;
+}
+.css-card a{
+    margin-top: 20px;
+color: black;
+font-weight: 600;
+font-size: 18px;
+}
+/*  */
+.java-card{
+    border-radius: 16px;
+    background:  rgba(255, 223, 0, 0.05);
+    width: 250px;
+  
+    padding: 20px 10px;
+}
+.java-card img{
+    width: 100px;
+margin-bottom: 15px;
+}
+.java-card h2{
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.java-card p{
+color: rgb(36, 34, 34);
+font-size: 18px;
+margin-bottom: 14px;
+}
+.java-card a{
+    margin-top: 20px;
+color: black;
+font-weight: 600;
+font-size: 18px;
+}
+/* My Next Target */
+.main-nextTarget{
+    width: 100%;
+    height: 800px;
+
+}
+.main-nextTarget .text{
+  text-align: center;
+    
+}
+.main-nextTarget .text h1{
+    font-weight: 600;
+    color: rgb(45, 43, 43);
+    
+}
+.main-nextTarget .text p{ 
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+    margin-top: 15px;
+}
+.three-card-next{
+  margin-top: 50px;
+}
+.react{
+    width: 80%;
+    border: 1px solid black;
+    height: 150px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.react img{
+    width: 70px;
+    height: 70px;
+}
+.react-text {
+margin-left: 20px;
+}
+.react-text h3 {
+color: rgb(13, 19, 33);
+font-weight: 600;
+margin-bottom: 12px;
+font-size: 25px;
+}
+.react-text p{
+  color:  rgb(13, 19, 33);
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.react-text a{
+    color: rgb(32, 31, 31);
+    font-size: 18px;
+    font-weight: 600;
+}
+/*  */
+.nodejs{
+    width: 80%;
+    border: 1px solid black;
+    height: 150px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.nodejs img{
+    width: 70px;
+    height: 70px;
+}
+.nodejs-text {
+margin-left: 20px;
+}
+.nodejs-text h3 {
+color: rgb(13, 19, 33);
+font-weight: 600;
+margin-bottom: 12px;
+font-size: 25px;
+}
+.nodejs-text p{
+  color:  rgb(13, 19, 33);
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.nodejs-text a{
+    color: rgb(32, 31, 31);
+    font-size: 18px;
+    font-weight: 600;
+}
+/*  */
+.MongoDB{
+    width: 80%;
+    border: 1px solid black;
+    height: 150px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.MongoDB img{
+    width: 70px;
+    height: 70px;
+}
+.MongoDB-text {
+margin-left: 20px;
+}
+.MongoDB-text h3 {
+color: rgb(13, 19, 33);
+font-weight: 600;
+margin-bottom: 12px;
+font-size: 25px;
+}
+.MongoDB-text p{
+  color:  rgb(13, 19, 33);
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.MongoDB-text a{
+    color: rgb(32, 31, 31);
+    font-size: 18px;
+    font-weight: 600;
+}
+/*I need Support  */
+.support{
+    margin-left: 10%;
+    margin-right: 10%;  
+}
+.main-part-support{
+    width: 100%;
+    height: 400px;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/handshake.jpg);
+    margin-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+   position: relative;
+}
+/*  */
+
+.main-text{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.main-text h1{
+color: white;
+font-size: 40px;
+}
+.main-text p{
+color: rgb(228, 220, 220);
+font-size: 18px;
+margin-top: 10px;
+margin-top: 10x;
+}
+.inpu-btn{
+    margin-top: 15px;
+}
+    
+.inpu-btn .inpu-1{
+    width: 400px;
+   padding: 12px 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.inpu-btn .inpu-2{
+    width: 140px;
+    padding: 13.5px 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: rgb(18, 18, 18);
+    font-weight: 600;
+}
